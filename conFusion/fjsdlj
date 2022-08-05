@@ -1,67 +1,26 @@
 [
-    {
-        "id": 1,
-        "code": "none_suspected_exposure",
-        "title": "None",
-        "defaultValue":"False",
-        "mlref": "21",
-        "isHorizontalAlign": false
-    },
-    {
-        "id": 2,
-        "code": "outside_of_my_household",
-        "title": "I suspect that I have been exposed to someone with COVID-19 outside of my household",
-        "defaultValue":"False",
-        "mlref": "17",
-        "isHorizontalAlign": false
-    },
-    {
-        "id": 3,
-        "code": "someone_who_has_covid-19",
-        "title": "I live with someone who has COVID-19",
-        "defaultValue":"False",
-        "mlref": "18",
-        "isHorizontalAlign": false
-    },
-    {
-        "id": 4,
-        "code": "more_than_20_people",
-        "title": "I have been to an indoor event with more that 20 people. (Eg: Bars, Restaurants, Weddings, Religious Place)",
-        "defaultValue":"False",
-        "mlref": "19",
-        "isHorizontalAlign": false
-    },
-    {
-        "id": 5,
-        "code": "others_were_not_wearing_a_mask",
-        "title": "I was not wearing a mask or others were not wearing a mask at an indoor event with more than 20 people",
-        "defaultValue":"False",
-        "mlref": "20",
-        "isHorizontalAlign": false
-    },
-    {
-        "id": 6,
-        "code": "shared_utensils",
-        "title": "Shared eating or drinking utensils with someone who has COVID-19",
-        "defaultValue":"False",
-        "mlref": "79",
-        "isHorizontalAlign": false
-    },
-    {
-        "id": 7,
-        "code": "Been_sneezed_someone_who_has_covid-19",
-        "title": "Been sneezed on or coughed on by someone who has COVID-19",
-        "defaultValue":"False",
-        "mlref": "80",
-        "isHorizontalAlign": false
-    },
-    {
-        "id": 8,
-        "code": "provided_care_at-home_to_someone",
-        "title": "Provided care at home to someone who is sick with COVID-19",
-        "defaultValue":"False",
-        "mlref": "81",
-        "isHorizontalAlign": false
-    }
-    
-]
+                        {
+                          "id": 1,
+                          "code": "none_fever_or_chills",
+                          "title": "None",
+                          "defaultValue":"False",
+                          "mlref": "31",
+                          "isHorizontalAlign": false
+                      },
+                      {
+                          "id": 2,
+                          "code": "fever",
+                          "title": "Fever",
+                          "defaultValue":"False",
+                          "mlref": "29",
+                          "isHorizontalAlign": false
+                      },
+                      {
+                          "id": 3,
+                          "code": "chills",
+                          "title": "Chills",
+                          "defaultValue":"False",
+                          "mlref": "30",
+                          "isHorizontalAlign": false
+                      }
+                  ]

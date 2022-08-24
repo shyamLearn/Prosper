@@ -187,8 +187,8 @@
                     <h3 class="card-header bg-warning text-white" style="color:aqua; --darkreader-inline-color:#effa22;" data-darkreader-inline-color>Reserve a Table</h3>
                     <div class="card-body">
                         <form>
-                            <div class="form-group row"><label for="numguest" class="col-12 col-sm-2 col-form-label">Number of Guests</label></div>
-                            <div class="col-12 col-sm-10">
+                            <div class="form-group row"><label for="numguest" class="col-10 col-sm-2 col-form-label">Number of Guests</label></div>
+                            <div class="col-10 col-sm-10">
                                 <input type="radio" class="radio-inline mr-2 ml-3" id="numguest">1
                                 <input type="radio" class="radio-inline mr-2 ml-3" id="numguest">2
                                 <input type="radio" class="radio-inline mr-2 ml-3" id="numguest">3
@@ -196,12 +196,23 @@
                                 <input type="radio" class="radio-inline mr-2 ml-3" id="numguest">5
                                 <input type="radio" class="radio-inline mr-2 ml-3" id="numguest">6
                             </div>
-                            <div class="form-group row"><label for="dtime" class="col-12 col-sm-2 col-form-label">Date and Time</label>
-                            <div class="col-12 col-sm-4">
-                                <input type="dtime" class="form-control" id="dtime" placeholder="Date">
+                            <!-- <div class="form-group row"><label for="dtime" class="col-12 col-sm-2 col-form-label">Date and Time</label> -->
+                                <div class="btn-group btn-group-toggle col-10" data-toggle="buttons">
+                                    <a>Section</a>
+                                    <label class="btn btn-secondary active">
+                                        <input type="radio" name="options" id="option_1">
+                                        Smoking
+                                    </label>
+                                    <label class="btn btn-secondary active">
+                                        <input type="radio" name="options" id="option_1">
+                                        Non-Smoking
+                                    </label>
+                                </div>
+                            <div class="col-4 col-sm-4">
+                                <input type="email" class="form-control" id="email" placeholder="email">
                             </div>
-                            <div class="col-12 col-sm-4">
-                                <input type="dtime" class="form-control" id="dtime" placeholder="Time">
+                            <div class="col-4 col-sm-4">
+                                <input type="password" class="form-control" id="password" placeholder="password">
                             </div>
                             <div class="offset-md-2 col-md-10">
                                 <button type="submit" class="btn btn-primary" style="color:blue">Reserve</button>

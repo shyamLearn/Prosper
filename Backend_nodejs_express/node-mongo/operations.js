@@ -8,7 +8,7 @@ exports.insertDocument = (db, document, collection, callback) => {
 
 exports.findDocuments = (db, collection, callback) => {
     const coll = db.collection(collection);
-    return coll.find({}).toArray();
+    return coll.findmany({}).toArray();
 };
 
 exports.removeDocument = (db, document, collection, callback) => {

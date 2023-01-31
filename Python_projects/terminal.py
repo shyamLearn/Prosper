@@ -25,7 +25,7 @@ while True:
         print("Files and Directories in :", path)
         print(dir_list)
     if code == "echo":
-        echo= input("What to echo: ")
+        echo = input("What to echo: ")
         print(echo)
     if code == "mkdir":
         first = input("File Name: ")
@@ -36,8 +36,3 @@ while True:
     if code == "touch":
         File = input("File Name: ")
         Path(path + File).touch()
-        
-
-        
-        
-   

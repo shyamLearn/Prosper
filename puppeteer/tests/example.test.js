@@ -10,6 +10,8 @@ describe('My Fist Puppeteer Test', () => {
         const page = await browser.newPage()
         await page.goto('http://example.com/')
         await page.waitForSelector('h1')
+        await page.reload()
+        await page.waitForSelector('h1')
         await browser.close()
     })
 })

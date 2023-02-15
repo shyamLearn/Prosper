@@ -8,10 +8,8 @@ describe('My Fist Puppeteer Test', () => {
             slowMo: 50, 
             devtools: true })
         const page = await browser.newPage()
-        await page.goto('http://example.com/')
-        await page.waitForSelector('h1')
-        await page.reload()
-        await page.waitForSelector('h1')
-        await browser.close()
+        await page.goto('https://devexpress.github.io/testcafe/example')
+        await page.type('#developer-name', 'Mike', {delay: 2000})
+    
     })
 })
